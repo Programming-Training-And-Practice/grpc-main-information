@@ -10,6 +10,7 @@
 * [Pros.](#pros)
 * [Const.](#cons)
 * [Type of gRPC.](#types-of-grpc)
+* [Scalability.](#scalability)
 * [Help](#help)
 
 
@@ -62,6 +63,19 @@
 * Server Streaming.
 * Bidirectional Streaming.
 
+
+
+
+
+## Scalability.
+Server.
+* gRPC Server are asynchronous by default. This means they do not block threads on request.
+* Therefore each gRPC server can serve millions of requests in parallel. 
+
+Clients.
+* gRPC Clients can be asynchronous or synchronous(blocking).
+* The Client decides which model works best for the performance needs.
+* gRPC Clients can perform client side load balancing.
 
 
 
