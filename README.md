@@ -51,7 +51,8 @@
 * Unclear API.
 * No Backpressure support.
 * Just a wrapper on top HTTP/2.
-* gRPC-web. 
+* gRPC-web. No native browser support.
+* Proxies.
 
 
 
